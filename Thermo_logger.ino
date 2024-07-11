@@ -139,5 +139,5 @@ void loop() {
 
   Serial.println("Loop complete.");
 
-  delay(30000); // 5 seconds delay between readings
+  delay(30000); // 30 seconds delay between readings
 }
