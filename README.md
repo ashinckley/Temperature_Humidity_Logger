@@ -1,7 +1,4 @@
-# Temperature_Humidity_Logger
-Arduino SD card shield, and sensor shield into a temp/humidity sensor logging system
-# DHT11 Temperature Logger
-
+# Temperature and Humidity Logger
 This project logs temperature and humidity data from a DHT11 sensor to an SD card using an Arduino.
 
 ## Components Used
