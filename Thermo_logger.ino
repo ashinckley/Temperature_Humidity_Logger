@@ -102,11 +102,11 @@ void loop() {
   Serial.println(" %");
   Serial.print("DateTime: ");
   Serial.print(now.year(), DEC);
-  Serial.print('/');
+  Serial.print('-');
   Serial.print(now.month(), DEC);
-  Serial.print('/');
+  Serial.print('-');
   Serial.print(now.day(), DEC);
-  Serial.print(" ");
+  Serial.print('T');
   Serial.print(now.hour(), DEC);
   Serial.print(':');
   Serial.print(now.minute(), DEC);
@@ -118,11 +118,11 @@ void loop() {
   dataFile = sd.open(fileName, FILE_WRITE);
   if (dataFile) {
     dataFile.print(now.year(), DEC);
-    dataFile.print('/');
+    dataFile.print('-');
     dataFile.print(now.month(), DEC);
-    dataFile.print('/');
+    dataFile.print('-');
     dataFile.print(now.day(), DEC);
-    dataFile.print(" ");
+    dataFile.print('T');
     dataFile.print(now.hour(), DEC);
     dataFile.print(':');
     dataFile.print(now.minute(), DEC);
